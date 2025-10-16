@@ -1,0 +1,18 @@
+[project]
+name = "dynamic-econ"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "cairosvg>=2.8.2",
+    "jupyter>=1.1.1",
+    "jupytext>=1.17.3",
+    "kaleido>=1.1.0",
+    "pnglatex>=1.1",
+    "pynvim>=0.6.0",
+    "pyperclip>=1.11.0",
+]
